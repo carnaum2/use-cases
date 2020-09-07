@@ -1,0 +1,26 @@
+sources:
+  ids:
+    address: False
+    call_centre_calls: False
+    customer: True
+    orders: True
+    tnps: True
+    billing: True
+    campaigns: True
+    customer_aggregations: True
+    customer_penalties: True
+    device_catalogue: True
+    geneva: True
+    netscout: False
+services: True
+level: service
+service_set: mobile
+segment_filter: mobileandfbb
+model_target: port
+labeled: False
+cycles_horizon: 1
+discarded_cycles: 0
+closing_day: 20190521
+save_results: True
+save_car: False
+mode: test/validation/predict

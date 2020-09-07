@@ -1,0 +1,10 @@
+my_propensity_operators/propensity_dag_test.py
+.idea/
+Pipfile
+Pipfile.lock
+venv/
+
+
+.DS_Store
+__pycache__/
+data/__pycache__/

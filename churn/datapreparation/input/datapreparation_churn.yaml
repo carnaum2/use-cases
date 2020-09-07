@@ -1,0 +1,10 @@
+level: service
+service_set: mobile
+segment_filter: mobileandfbb
+model_target: port
+cycles_horizon: 8
+discarded_cycles: 4
+closing_day: 20180831
+save_car: True
+discard_vars: [order_id]
+labeled: True

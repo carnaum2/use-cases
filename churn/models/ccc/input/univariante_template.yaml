@@ -1,0 +1,17 @@
+title: Análisis univariante
+author: Daniel de Santos Sierra
+format: xlsx
+content:
+  - section: Introducción
+  - text: A continuación se muestra la tabla de frecuencia por periodo.
+  - text: Este estudio ...
+  - text: Blablabla
+  - table: freq_by_period
+  - section: Completness
+  - completeness: completeness_analysis
+  - section: Distribuciones de las variables numéricas
+  - plots: distributions
+  - section: Correlaciones
+  - matrix: correlation
+  - section: Univariante
+  - univariate: univariate_analysis

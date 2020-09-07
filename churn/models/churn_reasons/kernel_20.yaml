@@ -1,0 +1,11 @@
+number_feats: 20
+top_feats: 6
+max_feats: 70
+n_samples: 100000
+list_feats: /var/SP/data/home/asaezco/src/devel/lista.txt
+nulls_df: /data/udf/vf_es/churn/metadata/metadata_v1.1
+config_f: churn_reasons.yaml
+pred_name: test_tr20190114to20190114_tt20190314_horizon8_on20190416_131251
+test_df: hdfs://nameservice1/user/hive/warehouse/tests_es.db/jvmm_amdocs_prepared_car_mobile_complete_
+save_dir: tests_es.asaezco_kernel_churn_reasons_auto_
+train_df: /data/udf/vf_es/churn/models/prediction_tr20190121to20190121_tt20190321_horizon8_on20190402_103301/training_set

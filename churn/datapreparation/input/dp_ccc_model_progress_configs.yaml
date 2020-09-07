@@ -1,0 +1,210 @@
+configs:
+  config_1:
+    enabled: False
+    start_port: 20181108
+    end_port: 20181207
+    closing_day: 20181107
+    ccc_days: -60
+    agg_by: msisdn
+    save_car: True
+    labeled: True
+    model_target: comercial
+    new_car_version: False
+  config_2:
+    enabled: False
+    start_port: 20181101
+    end_port: 20181130
+    closing_day: 20181031
+    ccc_days: -60
+    agg_by: msisdn
+    save_car: True
+    labeled: True
+    model_target: comercial
+    new_car_version: False
+  config_3:
+    enabled: False
+    start_port: 20181022
+    end_port: 20181121
+    closing_day: 20181021
+    ccc_days: -60
+    agg_by: msisdn
+    save_car: True
+    labeled: True
+    model_target: comercial
+    new_car_version: False
+  config_4:
+    enabled: False
+    start_port: 20181015
+    end_port: 20181114
+    closing_day: 20181014
+    ccc_days: -60
+    agg_by: msisdn
+    save_car: True
+    labeled: True
+    model_target: comercial
+    new_car_version: False
+  config_5:
+    enabled: False
+    start_port: 20181008
+    end_port: 20181107
+    closing_day: 20181007
+    ccc_days: -60
+    agg_by: msisdn
+    save_car: True
+    labeled: True
+    model_target: comercial
+    new_car_version: False
+  config_6:
+    enabled: False
+    start_port: 20181008
+    end_port: 20181107
+    closing_day: 20181007
+    ccc_days: -60
+    agg_by: msisdn
+    save_car: True
+    labeled: True
+    model_target: comercial
+    new_car_version: False
+  config_7:
+    enabled: False
+    start_port: 20181001
+    end_port: 20181031
+    closing_day: 20180930
+    ccc_days: -60
+    agg_by: msisdn
+    save_car: True
+    labeled: True
+    model_target: comercial
+    new_car_version: False
+  config_8:
+    enabled: False
+    start_port: 20180922
+    end_port: 20181021
+    closing_day: 20180921
+    ccc_days: -60
+    agg_by: msisdn
+    save_car: True
+    labeled: True
+    model_target: comercial
+    new_car_version: False
+  config_9:
+    enabled: False
+    start_port: 20180915
+    end_port: 20181014
+    closing_day: 20180914
+    ccc_days: -60
+    agg_by: msisdn
+    save_car: True
+    labeled: True
+    model_target: comercial
+    new_car_version: False
+  config_10:
+    enabled: False
+    start_port: 20181201
+    end_port: 20181231
+    closing_day: 20181130
+    ccc_days: -60
+    agg_by: msisdn
+    save_car: True
+    labeled: True
+    model_target: comercial
+    new_car_version: False
+  config_A:
+    enabled: True
+    start_port: 20190101
+    end_port: 20190131
+    closing_day: 20181231
+    ccc_days: -60
+    agg_by: msisdn
+    save_car: True
+    labeled: True
+    model_target: comercial
+    new_car_version: False
+  config_B:
+    enabled: True
+    start_port: 20181108
+    end_port: 20181207
+    closing_day: 20190107
+    ccc_days: -60
+    agg_by: msisdn
+    save_car: True
+    labeled: True
+    model_target: comercial
+    new_car_version: False
+  config_C:
+    enabled: False
+    start_port: 20190115
+    end_port: 20190214
+    closing_day: 20190114
+    ccc_days: -60
+    agg_by: msisdn
+    save_car: True
+    labeled: True
+    model_target: comercial
+    new_car_version: False
+  config_D:
+    enabled: True
+    start_port: 20190122
+    end_port: 20190221
+    closing_day: 20190121
+    ccc_days: -60
+    agg_by: msisdn
+    save_car: True
+    labeled: True
+    model_target: comercial
+    new_car_version: False
+  config_E:
+    enabled: True
+    start_port: 20190201
+    end_port: 20190228
+    closing_day: 20190131
+    ccc_days: -60
+    agg_by: msisdn
+    save_car: True
+    labeled: True
+    model_target: comercial
+    new_car_version: False
+  config_F:
+    enabled: True
+    start_port: 20190208
+    end_port: 20190307
+    closing_day: 20190207
+    ccc_days: -60
+    agg_by: msisdn
+    save_car: True
+    labeled: True
+    model_target: comercial
+    new_car_version: False
+  config_G:
+    enabled: True
+    start_port: 20190215
+    end_port: 20190314
+    closing_day: 20190214
+    ccc_days: -60
+    agg_by: msisdn
+    save_car: True
+    labeled: True
+    model_target: comercial
+    new_car_version: False
+  config_H:
+    enabled: False
+    start_port: 20190222
+    end_port: 20190321
+    closing_day: 20190221
+    ccc_days: -60
+    agg_by: msisdn
+    save_car: True
+    labeled: True
+    model_target: comercial
+    new_car_version: False
+  config_I:
+    enabled: False
+    start_port: 20190301
+    end_port: 20190331
+    closing_day: 20190228
+    ccc_days: -60
+    agg_by: msisdn
+    save_car: True
+    labeled: True
+    model_target: comercial
+    new_car_version: False

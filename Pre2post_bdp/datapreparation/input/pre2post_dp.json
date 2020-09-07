@@ -1,0 +1,9 @@
+{
+  "data_preparation": {
+    "num_samples": null,
+    "dd_prepago": ["201901", "201901"],
+    "dd_pospago_tag": "M1",
+    "save": true,
+    "labeled": true
+  }
+}

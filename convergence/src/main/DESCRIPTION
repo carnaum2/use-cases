@@ -1,0 +1,17 @@
+Package: convergence
+Type: Package
+Title: Code to train and predict users for convergence campaign
+Version: 0.1.0
+Authors@R: person("Federico", "Castanedo", email = "federico.castanedo@vodafone.com",
+  role = c("aut", "cre"))
+  person("Borja", "Bergua", email = "borja.bergua@vodafone.com",
+  role = c("aut", "cre"))
+Description: Code to train and predict users for convergence campaign
+Imports:
+    NA
+License: NA
+Encoding: NA
+LazyData: NA
+URL: NA
+BugReports: NA
+RoxygenNote: 5.0.1

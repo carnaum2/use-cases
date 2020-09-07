@@ -1,0 +1,17 @@
+sources:
+  ids:
+    address: False
+    billing: True
+    call_centre_calls: True
+    campaigns: False
+    customer: True
+    customer_aggregations: True
+    customer_penalties: True
+    device_catalogue: False
+    geneva: True
+    geneva_roam: False
+    netscout: False
+    orders: True
+    spinners: False
+    tnps: False
+    perms_and_prefs: False

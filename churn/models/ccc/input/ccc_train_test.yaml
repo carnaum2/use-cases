@@ -1,0 +1,30 @@
+comment: This file is used for training and predict
+data_preparation:
+  ccc_days: -60
+  start_port: 20181108
+  end_port: 20181207
+  closing_day: 20181207
+  save : true,
+  force_generation : false
+  level: service
+  service_set: mobile
+  segment_filter: mobileandfbb
+  model_target: comercial
+  agg_by: msisdn
+
+train :
+  do_train : true
+  train_alg : 0
+  save_train_results : true
+
+predict :
+  do_predict : true,
+  closing_day: 20181130
+campaign:
+  do_campaign: True
+  campaign_date: 201911
+
+
+
+
+

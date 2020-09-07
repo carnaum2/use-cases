@@ -1,0 +1,10 @@
+level: nif
+ccc_days: -60
+start_port: 20180501
+end_port: 20180531
+closing_day: 20180430
+agg_by: msisdn
+save_car: True
+labeled: True
+model_target: comercial
+new_car_version: True

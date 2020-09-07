@@ -1,0 +1,28 @@
+{
+  "data_preparation" : {
+    "num_samples": null,
+    "classical_campaign_msisdn_hist": true,
+    "dd_prepago": ["201808", "201808"],
+    "dd_pospago_tag": "M1",
+    "save" : true,
+    "force_generation" : false
+  },
+  "train" : {
+    "do_train" : true,
+    "train_alg" : 0,
+    "save_train_results" : true
+  },
+  "predict" : {
+    "do_predict" : true,
+    "dd_prepago" : ["201808"],
+    "dd_pospago_tag" : "M1",
+    "num_samples": null,
+    "classical_campaign_msisdn_hist": true,
+    "use_train_model_predict" : true
+  },
+  "campaign_creation" : {
+    "create_csv_file": true,
+    "campaign_date": "201811",
+    "storage_format": "hdfs"
+  }
+}

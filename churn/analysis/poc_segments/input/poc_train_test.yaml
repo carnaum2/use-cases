@@ -1,0 +1,20 @@
+comment: This file is used for training and predict
+data_preparation:
+  agg_by: msisdn
+
+train :
+  do_train : true
+  train_alg : 0
+  save_train_results : true
+
+predict :
+  do_predict : true,
+  closing_day: 20181130
+campaign:
+  do_campaign: True
+  campaign_date: 201911
+
+
+
+
+

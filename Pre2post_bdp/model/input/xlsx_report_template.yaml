@@ -1,0 +1,58 @@
+title: Churn model report
+author: Cristina Sanchez (cristina.sanchez4@vodafone.com)
+format: xlsx
+content:
+  - section: Intro
+  - text: '# INPUT PARAMETERS'
+  - text: The program has been run with the following parameters
+  - dict: '{{model_fit_config.config}}'
+  - text: "Number of features: {{numero_variables}}"
+  - text: Following table shows the number of positive cases (true cases) vs the number of samples
+  - table: target_freq
+  - section: Split
+  - text: '# SPLIT'
+  - text: The train set has {{train_partition_size}} rows and the test set {{test_partition_size}}
+  - text: with the following split
+  - table: target_freq_split
+  - text: 'where:'
+  - text:
+    - '* num samples: num samples of this set and label'
+    - '* %_samples (by label) - percentage of samples of this label (e.g. train has 67% of al 1s and test 33%). Note this column must sum up 100 * num_distinct_labels'
+    - '* %_samples (total) - percentage of samples from total samples (this columns must sum up 100%)'
+  - section: Model
+  - text: The model used was
+  - dict: '{{model_fit_params.params}}'
+  - text: '# Score history'
+  - table: model_fit_score_hist
+  - section: Train metrics
+  - text: '# Train metrics'
+  - text: This sheet corresponds to the metrics obtained in train
+  - text: '## Feature Importance'
+  - feature_importance: model_fit.feature_importance
+  - text: "## ROC"
+  - roc:
+      roc: model train metrics.roc
+      auc: model train metrics.auc
+  - figs:
+      '## Score Distribution': model train metrics.fig_violin
+      '## Score histogram': model train metrics.fig_scores_hist
+  - text: "## LIFT"
+  - lift:
+      a_train: model train metrics.lift
+      b_test: model test metrics.lift
+  - text: "## Summary metrics"
+  - dict: '{{model train metrics.metrics}}'
+  - text: "## Confussion Matrix"
+  - table: model train metrics.conf_matrix
+  - section: Test metrics
+  - text: '# Test metrics'
+  - text: This sheet corresponds to the metrics obtained in test
+  - text: "## ROC"
+  - roc:
+      roc: model test metrics.roc
+      auc: model test metrics.auc
+  - figs:
+      '## Score Distribution': model test metrics.fig_violin
+      '## Score histogram': model test metrics.fig_scores_hist
+
+

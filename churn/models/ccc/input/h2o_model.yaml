@@ -1,0 +1,13 @@
+model:
+  engine: h2o
+  intro: True
+  type: XGBOOST
+  test_ratio_split: 0.35
+  params:
+    max_runtime_secs: 60
+    balance_classes: True
+    nfolds: 10
+  gridparams:
+    max_after_balance_size: [1.7,2.5]
+    ntrees: [30]
+    max_depth: [5]

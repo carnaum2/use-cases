@@ -1,0 +1,17 @@
+model:
+  engine: pyspark
+  intro: True
+  type: RF
+  test_ratio_split: 0.35
+  params:
+    featuresCol: features
+    labelCol: label
+    maxDepth: 25
+    maxBins: 32
+    minInstancesPerNode: 50
+    impurity: gini
+    featureSubsetStrategy: sqrt
+    subsamplingRate: 0.7
+    numTrees: 250
+    seed: 1234
+

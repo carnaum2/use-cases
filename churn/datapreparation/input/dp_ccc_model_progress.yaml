@@ -1,0 +1,9 @@
+start_port: 20181108
+end_port: 20181207
+closing_day: 20181207
+ccc_days: -60
+agg_by: msisdn
+save_car: True
+labeled: True
+model_target: comercial
+new_car_version: False

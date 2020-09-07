@@ -1,0 +1,10 @@
+model:
+  engine: h2o
+  intro: True
+  type: DRF
+  test_ratio_split: 0.35
+  params:
+    max_runtime_secs: 6000
+    balance_classes: true
+    nfolds: 5
+    class_sampling_factors: [0.01, 1.]

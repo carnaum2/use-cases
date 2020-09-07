@@ -1,0 +1,24 @@
+sources:
+  ids:
+    address: False
+    call_centre_calls: False
+    customer: True
+    orders: True
+    tnps: True
+    billing: True
+    campaigns: True
+    customer_aggregations: True
+    customer_penalties: True
+    device_catalogue: True
+    geneva: True
+    netscout: False
+services: True
+level: service
+service_set: mobile
+segment_filter: mobileandfbb
+model_target: port
+cycles_horizon: 8
+discarded_cycles: 4
+closing_day: 20181021
+save_results: True
+mode: test/validation/predict

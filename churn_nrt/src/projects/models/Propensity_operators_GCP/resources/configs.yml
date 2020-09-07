@@ -1,0 +1,65 @@
+gcp:
+
+  bucket: 'vf-es-ca-nonlive-dev'
+
+  bucket_customer_raw: 'vfes-dh-customer-rawprepared'
+  bucket_service_raw: 'vfes-dh-customer-rawprepared'
+  bucket_tgs_raw: 'vfes-dh-customer-rawprepared'
+  bucket_mobport_raw: 'vfes-dh-customer-rawprepared'
+
+  ids_table: 'amdocs_inf_dataset/amdocs_ids_service_level'
+  customer_raw: 'CUSTOMEROW/1.0/parquet'
+  service_raw: 'SERVICESOW/1.0/parquet'
+  service_price: 'PLANPRIC_ONO/1.0/parquet'
+  tgs: 'amdocs_inf_dataset/tgs/year={}/month={}/day={}'
+
+  export_map: 'ref-tables-amdocs-ids/RBL_EXPORT_MAP.TXT'
+  param_ow_services: 'ref-tables-amdocs-ids/PARAM_OW_SERVICES_LAST.TXT'
+  port_table: 'SOPO_SOLICITUD_PORTABILIDAD/1.0/parquet'
+
+  churn_nrt_path: 'models/propensity_operators/data/churn_nrt'
+  partition_date: 'year={}/month={}/day={}'
+  module_name_customer: 'customer_base'
+  data_path : 'models/propensity_operators/data'
+  metrics_path : 'models/propensity_operators/metrics'
+  predictions_path : 'models/propensity_operators/predictions'
+
+
+gcp_new:
+
+
+  bucket: 'vf-es-ca-nonlive-dev'
+
+  ids_table: 'gs://vf-es-ca-nonlive-dev/amdocs_inf_dataset/amdocs_ids_service_level'
+
+  customer_raw: 'gs://vfes-dh-customer-rawprepared/CUSTOMEROW/1.0/parquet'
+  service_raw: 'gs://vfes-dh-customer-rawprepared/SERVICESOW/1.0/parquet'
+  service_price: 'gs://vfes-dh-customer-rawprepared/PLANPRIC_ONO/1.0/parquet'
+
+  export_map: 'gs://vf-es-ca-nonlive-dev/ref-tables-amdocs-ids/RBL_EXPORT_MAP.TXT'
+  param_ow_services: 'gs://vf-es-ca-nonlive-dev/ref-tables-amdocs-ids/PARAM_OW_SERVICES_LAST.TXT'
+  port_table: 'gs://vfes-dh-customer-rawprepared/SOPO_SOLICITUD_PORTABILIDAD/1.0/parquet'
+
+  churn_nrt_path: 'gs://vf-es-ca-nonlive-dev/models/propensity_operators/data/churn_nrt'
+  partition_date: 'year={}/month={}/day={}'
+  module_name_customer: 'customer_base'
+  data_path: 'gs://vf-es-ca-nonlive-dev/models/propensity_operators/data'
+  metrics_path: 'gs://vf-es-ca-nonlive-dev/models/propensity_operators/metrics'
+
+  predictions_path: 'gs://vf-es-ca-nonlive-dev/models/propensity_operators/predictions'
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

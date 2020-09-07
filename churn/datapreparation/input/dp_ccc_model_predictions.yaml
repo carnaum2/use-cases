@@ -1,0 +1,26 @@
+configs:
+  config_1:
+    enabled: True
+    ccc_days: -60
+    start_port: None
+    end_port: None
+    closing_day: 20190214
+    agg_by: msisdn
+    save_car: True
+    labeled: False
+    model_target: comercial
+    new_car_version: False
+    segment_filter: mobileandfbb
+  config_2:
+    enabled: True
+    ccc_days: -60
+    start_port: None
+    end_port: None
+    closing_day: 20190214
+    agg_by: msisdn
+    save_car: True
+    labeled: False
+    model_target: comercial
+    new_car_version: False
+    segment_filter: onlymob
+

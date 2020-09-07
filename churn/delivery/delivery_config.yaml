@@ -1,0 +1,26 @@
+
+
+steps:
+  1:
+    car: True
+  2:
+    join_prev_car: True
+  3:
+    extrafeats: True
+  4:
+    prepared_car: True
+  5:
+    [
+       a: [
+          scores: True],
+       b: [
+           churn_reasons: True]
+    ]
+  6:
+    dp_levers: False
+  7:
+    delivery_table: True
+  8:
+    delivery_file: True
+  9:
+    model_evaluation: True
